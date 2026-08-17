@@ -34,7 +34,6 @@ def download_video():
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         error_code = ydl.download(URLS)
     root.after(0, on_finished)
-
 def start_download_thread():
     progress.start()
     download_thread = threading.Thread(target=download_video)
