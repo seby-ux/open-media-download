@@ -7,7 +7,7 @@ import yt_dlp
 import threading
 import time
 
-#to do: 1. format selector (mp4/mp3), 2. download progress bar
+#to do: 1. format selector (mp4/mp3), 2. download progress bar 3. better GUI
 
 
 
